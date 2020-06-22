@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Giriş ekranı</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/iconic/css/material-design-iconic-font.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+  </head>
+  <body>
+    <div class="limiter">
+      <div
+        class="container-login100"
+        style="background-image: url('images/bg-01.jpg');"
+      >
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+          <form class="login100-form validate-form">
+            <span class="login100-form-title p-b-49">
+              Sorgulama Ekranı
+            </span>
+
+            <div
+              class="wrap-input100 validate-input m-b-23"
+              data-validate="Username is reauired"
+            >
+              <span class="label-input100">TC Kimlik Numarası</span>
+              <input
+                class="input100"
+                type="number"
+                name="username"
+                placeholder="TC Kimlik Numarası"
+              />
+              <span class="focus-input100" data-symbol="&#xf206;"></span>
+            </div>
+
+            <div
+              class="wrap-input100 validate-input"
+              data-validate="Password is required"
+            >
+              <span class="label-input100">Şifre - Telefon</span>
+              <input
+                class="input100"
+                type="text"
+                name="pass"
+                placeholder="Telefon veya Şifre Giriniz"
+              />
+              <span class="focus-input100" data-symbol="&#xf190;"></span>
+            </div>
+
+            <div class="container-login100-form-btn mt-4">
+              <div class="wrap-login100-form-btn">
+				<div class="login100-form-bgbtn"></div>
+				 
+					<button class="login100-form-btn" formaction="/sonuc.html"  >
+						Giriş
+					  </button>
+				 
+                
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+  </body>
+</html>

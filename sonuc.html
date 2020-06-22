@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Giriş ekranı</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/iconic/css/material-design-iconic-font.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/sonuc.css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+  </head>
+  <body style="background-image: url('images/bg-01.jpg');">
+    <div class="limiter">
+      <div
+        class="container-login100 "
+        style="background-image: url('images/bg-01.jpg'); align-items: initial;"
+      >
+        <div
+          class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54 cerceve"
+         
+        >
+          <div class="container  ">
+            <ul class="nav nav-tabs flex mt-4">
+              <li class="active">
+                <a href="#ToplamMiktar" data-toggle="tab">Toplam Miktar</a>
+              </li>
+              <li>
+                <a href="#Odenmis" data-toggle="tab">Vadesi Gelmemiş Borçlar</a>
+              </li>
+              <li>
+                <a href="#Gecmis" data-toggle="tab">Vadesi Geçmiş Borçlar</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="ToplamMiktar" class="tab-pane active">
+                <h3 class="miktar">Toplam Miktar = <span class="para">12.394</span> TL</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Taksit No</th>
+                        <th>Vade</th>
+                        <th>Borç</th>
+                        <th>Durum</th>
+                      
+                
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>11/06/20202</td>
+                        <td>300 TL</td>
+                        <td>Ödendi</td>
+                      
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>11/06/20202</td>
+                        <td>300 TL</td>
+                        <td>Ödendi</td>
+
+
+                      
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>11/06/20202</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+
+
+                       
+                    </tr>
+                   
+                    </tbody>
+                </table>
+              </div>
+              <div id="Odenmis" class="tab-pane">
+                <h3  class="miktar">Vadesi Gelmemiş Miktar <span class="para">7.000</span>TL</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Taksit No</th>
+                        <th>Vade</th>
+                        <th>Borç</th>
+                        <th>Durum</th>
+                      
+                
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>11/06/20202</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+                      
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>11/06/20202</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+
+
+                      
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>11/06/20202</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+
+
+                       
+                    </tr>
+                   
+                    </tbody>
+                </table>
+              </div>
+              <div id="Gecmis" class="tab-pane">
+                <h3  class="miktar">Vadesi Geçmiş Miktar<span>5.000</span>TL</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Taksit No</th>
+                        <th>Vade</th>
+                        <th>Borç</th>
+                        <th>Durum</th>
+                      
+                
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>7</td>
+                        <td>11/06/2102</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+                      
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>11/06/2002</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+
+
+                      
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>13/06/2022</td>
+                        <td>300 TL</td>
+                        <td>Ödenmedi</td>
+
+
+                       
+                    </tr>
+                   
+                    </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===============================================================================================-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!--===============================================================================================-->
+  </body>
+</html>
